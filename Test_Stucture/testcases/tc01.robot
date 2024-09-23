@@ -24,5 +24,4 @@ Test Log in
     payment_feature.Fill in Credit Card Details and Confirm Payment    ${user01.creditcard}    ${user01.exp}    
     ...    ${user01.cvc}    ${user01.name}    
     common.Click User ICON
-    user_profile_page.Log Out
     #รัน uat sit robot  -d result -v type:uat tc01.robot
